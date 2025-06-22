@@ -1,0 +1,22 @@
+﻿Verschil tussen destroy() en delete() in Laravel Eloquent
+Het belangrijkste verschil tussen deze twee methodes:
+
+
+destroy($id) is een statische methode die je direct op het model aanroept.
+Je geeft een ID (of array van ID's) mee en Laravel zoekt het record op en verwijdert het.
+
+
+delete() is een instantie-methode die je aanroept op een model dat je eerst moet ophalen.
+Je gebruikt het op een specifiek model object dat je al hebt opgehaald.
+
+
+
+
+
+
+
+
+
+--
+
+https://www.youtube.com/watch?v=jnvu1GpylP0
